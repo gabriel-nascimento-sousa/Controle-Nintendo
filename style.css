@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    overflow: hidden;
+}
+#sombra{
+    width: 350px;
+    height: 100px;
+
+    position: absolute;
+    top: 70%;
+    border-radius: 50%;
+    z-index: 100;
+    background-color: white;
+    box-shadow: 10px 30px 10000px 90px rgb(192, 248, 243);
+    
+
+}
+
+#controle{
+    display: flex;
+    
+    position: absolute;
+    top: 40%;
+    rotate: -10deg;
+    animation:flutuar 2s infinite alternate-reverse linear;
+}
+button{
+    width: 25px;
+    height: 25px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+.setas{
+    border: 1px solid rgb(189, 163, 163);
+    padding: 10px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.linha{
+    display: flex;
+}
+.box1{
+    position: relative;
+    left: 27px;
+    width: 160px;
+    height: 160px;
+    border-radius: 50% 0 50% 50%;
+    background-color: rgb(218, 213, 213);
+    box-shadow: 0px 10px 0px 0px white;
+    z-index: 1;
+    border-top-color: aqua;
+    
+}
+.nome{
+    border: 2px solid red;
+    border-radius: 20px;
+    padding: 2px;
+    color: red;
+}
+.box2{
+    width: 140px;
+    height: 140px;
+    display: flex;
+    background-color: rgb(218, 213, 213);
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    
+    box-shadow: 0px 10px 2px 0px white;
+    
+}
+.box3{
+    background-color: rgb(218, 213, 213);
+    width: 160px;
+    height: 160px;
+    border-radius: 0 50% 50% 50%;
+    position: relative;
+    right: 27px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 10px 2px 0px white;
+    
+
+}
+.botoesMeio{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 26px;
+    
+}
+
+.b0{
+    height: 40px;
+    width: 15px;
+    rotate: 45deg;
+    border-radius: 100%;
+    background-color: black;
+    border: none;
+    box-shadow: 3px 0px 3px 0px rgb(0,0,0)
+}
+
+.cmd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border: 1px solid gray;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: rgb(114, 108, 108);
+    
+}
+.linha1{
+    display: flex;
+    gap: 40px;
+}
+
+.cmd button{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+#BX{
+    background-color: rgb(59, 59, 253);
+    border: none;
+    box-shadow: 3px 3px 0px 0px rgb(0, 0, 0);
+}
+
+#BX:hover{
+    background-color: rgb(53, 53, 219);
+    border: none;
+    box-shadow: 0px 0px 0px 0px rgb(0, 0, 0);
+}
+
+#BY{
+    background-color: rgb(34, 211, 34);
+    border: none;
+    box-shadow: 3px 3px 0px 0px rgb(0,0,0)
+}
+
+#BY:hover{
+    background-color: rgb(27, 160, 27);
+    border: none;
+    box-shadow: 0px 0px 0px 0px rgb(0,0,0)
+}
+
+#BA{
+    background-color: red;
+    border: none;
+    box-shadow: 3px 3px 0px 0px rgb(0,0,0)
+}
+
+#BA:hover{
+    background-color: rgb(221, 0, 0);
+    border: none;
+    box-shadow: 0px 0px 0px 0px rgb(0,0,0)
+}
+
+#BB{
+    background-color: yellow;
+    border: none;
+    box-shadow: 3px 3px 0px 0px rgb(0,0,0)
+}
+#BB:hover{
+    background-color: rgb(233, 233, 0);
+    box-shadow: 0px 0px 0px 0px rgb(0,0,0)
+}
+
+.corseta{
+    background-color: black;
+    color: rgb(134, 134, 134);
+    border: none;
+    box-shadow: 3px 0px 3px 0px rgb(0,0,0)
+}
+
+@keyframes flutuar{
+    from{
+        top: 40%;
+    }
+    to{
+        top: 30%;
+    }
+}
+
+@keyframes rotate{
+    from{
+        rotate: 0;
+    }
+    to{
+        rotate: 350deg;
+    }
+}
+
+@keyframes mover{
+    from{
+        left: 500px;
+    }
+    to{
+        left: 199px;
+    }
+}

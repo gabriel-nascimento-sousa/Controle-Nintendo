@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Controle Nintendo</title>
+</head>
+<body id="fundo">
+    <div id="controle">
+        <div class="box1">
+            <div class="setas">
+                <button class="corseta">▲</button>
+                <div class="linha">
+                    <button class="corseta" >◀</button>
+                    <button class="corseta">○</button>
+                    <button class="corseta" >▶</button>
+                </div>
+                <button class="corseta">▼</button>
+            </div>
+        </div>
+        <div class="box2">
+            <div class="nome">
+                <strong>Nintendo</strong>
+            </div>
+            <div class="botoesMeio">
+                <button class="b0"></button>
+                <button class="b0"></button>
+            </div>
+        </div>
+        <div class="box3">
+            <div class="cmd">
+                <button id="BX" onclick="Blue()">X</button>
+                <div class="linha1">
+                    <button id="BY" onclick="Green()">Y</button>
+                    <button id="BA" onclick="Red()">A</button>
+                </div>
+                <button id="BB" onclick="yellow()">B</button>
+            </div>
+        </div>
+    </div>
+    <div id="sombra"></div>
+    <script src="script.js"></script>
+</body>
+</html>
