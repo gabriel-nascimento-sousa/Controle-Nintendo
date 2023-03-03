@@ -20,8 +20,6 @@ body{
     z-index: 100;
     background-color: white;
     box-shadow: 10px 30px 10000px 90px rgb(192, 248, 243);
-    
-
 }
 
 #controle{
@@ -100,17 +98,13 @@ button{
     align-items: center;
     justify-content: center;
     box-shadow: 1px 10px 2px 0px white;
-    
-
 }
 .botoesMeio{
     position: relative;
     display: flex;
     flex-direction: row;
     gap: 26px;
-    
 }
-
 .b0{
     height: 40px;
     width: 15px;
@@ -213,12 +207,11 @@ button{
         rotate: 350deg;
     }
 }
-
-@keyframes mover{
+/* @keyframes mover{
     from{
         left: 500px;
     }
     to{
         left: 199px;
     }
-}
+} */
