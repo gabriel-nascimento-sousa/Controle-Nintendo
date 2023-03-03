@@ -1,3 +1,4 @@
 # Controle-Nintendo
 Controle de Nintendo
-<img src=" assets/projeto.png">
+<img src=" assets/projeto.jpg">
+
