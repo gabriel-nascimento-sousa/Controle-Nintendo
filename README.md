@@ -1,6 +1,6 @@
 <h1 align="center"> Controle Nintendo </h1>
 
-Projeto criado por diversão para simular um controle nintendo. <br/>
+<p align="center"> Projeto criado por diversão para simular um controle nintendo. <br/>
 </p>
 
 <p align="center">
@@ -17,7 +17,7 @@ Projeto criado por diversão para simular um controle nintendo. <br/>
 <br>
 
 <p align="center">
-  <img alt="control" src="assets/Controle-Nintendo" width="100%">
+  <img alt="control" src="assets/Controle-Nintendo.gif" width="60%">
 </p>
 
 ## 🤖 Tecnologias
